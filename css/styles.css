@@ -1,0 +1,185 @@
+/*
+Theme Name: Portfolio Template
+Author: Kelsey Raczak
+Author URI: http://www.kelseyraczak.com/
+*/
+
+/* ===== GENERAL ===== */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 3px;
+}
+
+p, li {
+	color: #868686;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #868686;
+	text-decoration: none;
+}
+
+
+.container {
+	box-sizing:border-box;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.row {
+	box-sizing: border-box;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.container:after, .row:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/* ===== HEADER ===== */
+
+/*section {
+	background-color: #fff;
+	box-sizing: border-box;
+	height: 100vh;
+	padding: 4% 5%;
+	width: 100%;
+}*/
+
+section h1 {
+	color: #fff;
+	font-size: 5em;
+	text-align: center;
+	margin: 5px 0;
+}
+
+/*nav {
+	box-sizing: border-box;
+	padding: 0 5%;
+	position: fixed;
+	width: 100%;
+}
+
+nav ul {
+	float: right;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 5px 0 5px 15px;
+}*/
+
+section .page {
+	box-sizing: border-box;
+/*	clear: both;*/
+	padding: 100px 0;
+	height: 100%;
+}
+
+section .page-1 {
+	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #52edc7, #5ac8fb);
+}
+
+section .page p {
+	color: #152d39;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+a.btn {
+	background-color: #9a35c4;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	/*box-shadow: 0 1px 10px #c444fa;*/
+	display: block;
+	height: 65px;
+	margin: 15px auto;
+	text-align: center;
+	-webkit-transition: 0.3s ease;
+	-moz-transition: 0.3s ease;
+	-o-transition: 0.3s ease;
+	transition: 0.3s ease;
+	width: 300px;
+}
+
+a.btn:hover {
+	box-shadow: 0 0 5px #408eb2;
+}
+
+/** trying new design **/
+
+.content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+section {
+	background-color: #fff;
+	box-sizing: border-box;
+	height: 100vh;
+	width: 93%;
+	margin-left: 7%;
+	display: table;
+	border: 30px solid #fff;
+}
+
+section .page {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+aside {
+	background-color: #152d39;
+	height: 100%;
+	left: 0;
+	min-width: 50px;
+	position: fixed;
+	top: 0;
+	width: 7%;
+	display: table;
+}
+
+nav {
+	/*background-color: red;*/
+	box-sizing: border-box;
+	/*padding: 0 5%;*/
+	/*position: fixed;*/
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	font-size: 1em;
+}
+
+nav ul li a {
+	color: #617b92;
+	box-sizing: border-box;
+	display: block;
+	padding: 50px 10px;
+	width: 100%;
+}
+
